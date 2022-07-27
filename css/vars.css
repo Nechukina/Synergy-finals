@@ -1,0 +1,15 @@
+:root {
+    --grey: #99abaf;
+    --light-blue: #e1edf4;
+    --light-bg: rgb(244, 244, 251);
+    --hover-color: #6960eb;
+    --gold: rgb(234, 205, 15);
+
+    --gap: 25px;
+    /*
+    --col1: calc((100% - 11 * var(--gap)) / 12);
+    --col2: calc(2 * (100% - 11 * var(--gap)) / 12 + var(--gap));
+    --col3: calc(3 * (100% - 11 * var(--gap)) / 12 + 2 * var(--gap));
+    --col4: calc(4 * (100% - 11 * var(--gap)) / 12 + 3 * var(--gap));
+    */
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <!--Для корректного отображения в старых браузерах-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Отображать страницу в масштабе 100%-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Нормализуем стили-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- подкючили CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- подключили фавикон -->
+    <link rel="shortcut icon" type="image-x.icon" href="img/favicon/favicon.ico">
+    <!-- подключили шрифты -->
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/bc8d5e1e4a.js" crossorigin="anonymous"></script>   
+    <title>Сайт-портфолио</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="nav">
+            <ul class="h-nav">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#portfolio_item">Мои работы</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="page-header">
+            <h1 class="h_title">Сайт-портфолио начинающего frontend-разработчика</h1>
+            <p class="h_slogan"> Используем HTML, CSS и JS для строительства сайта.</p>
+            <a href="#portfolio_item" class="h_arrow"><i class="fa-solid fa-angles-down"></i></a>
+        </div>
+    </div>
+</header>
+
+
+
+<section id="portfolio_item">
+    <div class="container portfolio">
+        <h2 class="portfolio_title">Примеры моих работ:</h2>
+        <div class="row-item">
+<!---Сайт 1--->
+            <div class="item"> 
+                <div class="picture">
+                    <a href="html/site1.html" target="_blank"><img src="img/pictures/it1.jpg" height="300" alt="Сайт 1"> </a>
+                </div>
+                <div class="description">
+                    <a href="html/site1.html" target="_blank">
+                        <h3 class="item_title">Мой первый сайт</h3>
+                    </a>
+                </div>
+            </div>
+<!---Сайт 2--->
+            <div class="item"> 
+                <div class="picture">
+                    <a href="#" target="_blank">
+                        <img src="img/pictures/it2.jpg" height="300" alt="Сайт 2">
+                    </a>
+                </div>
+                <div class="description">
+                    <a href="#" target="_blank">
+                        <h3 class="item_title">Мой второй сайт</h3>
+                    </a>
+                </div>
+            </div>
+<!---Сайт 3--->
+            <div class="item"> 
+                <div class="picture">
+                    <a href="html/site3.html" target="_blank">
+                    <img src="img/pictures/it3.jpg" height="300" alt="Сайт 3"> </div>
+                    </a>
+                <div class="description">
+                    <a href="html/site3.html" target="_blank">
+                    <h3 class="item_title">Галерея</h3>
+                    </a>
+                </div>
+            </div>
+<!---Сайт 4--->
+            <div class="item"> 
+                <div class="picture">
+                    <a href="html/site4.html" target="_blank">
+                    <img src="img/pictures/it4.jpg" height="300" alt="Сайт 4"> </div>
+                    </a>
+                <div class="description">
+                    <a href="html/site4.html" target="_blank">
+                        <h3 class="item_title">Изменение темы</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<footer id="contacts">
+    <div class="page-footer">
+        <div class="footer-left">
+            <h3>Ксения Нечукина</h3>
+            <p>Будущий frontend-разработчик.</p>
+        </div>
+        <div class="footer-middle">
+            <p class="ft_social">Здесь меня можно найти.</p>
+            <p class="ft_social_icon" >
+                <a href="https://vk.com/ksunyavozduh" target="_blank"><i class="fa-brands fa-vk"></i></a>
+                <a href="https://instagram.ru/ksunyavozduh" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://facebook.com/ksenia.ivanova.108" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            </p>
+        </div>
+        <div class="footer-right">
+            <p>Контакты:<br> ksenechka.93@yandex.ru<br>+7(901)595-22-85</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

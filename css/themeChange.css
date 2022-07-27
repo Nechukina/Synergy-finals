@@ -1,0 +1,38 @@
+html {
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.container {
+  text-align: center;
+  align-items: center;
+}
+
+.theme-button {
+  margin-top: var(--gap);
+  padding: 15px 25px;
+  border-radius: 20px;
+  background-color: #4f5a70;
+  color: #ffffff;
+}
+
+.light-theme {
+  color: #333333;
+  background-color: #eae9f2;
+}
+
+.light-theme .theme-button:focus,
+.light-theme .theme-button:hover {
+  color: #ffffff;
+  background-color: #6653d9;
+}
+
+.dark-theme {
+  color: #f2f2f2;
+  background-color: #17161a;
+}
+
+.dark-theme .theme-button:hover,
+.dark-theme .theme-button:hover {
+  color: #17161a;
+  background-color: #9484f2;
+}

@@ -1,0 +1,64 @@
+html {
+    background-color: rgb(216, 239, 229);
+    color: rgb(53, 95, 38);
+}
+
+.container {
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 200px;
+}
+
+.prev,
+.next {
+    background-color: rgb(216, 239, 229);
+    font-size: 50px;
+    border: 0;
+    padding: 5px;
+    margin: 10px;
+    font-size:48px;
+    color:rgb(53, 95, 38)
+}
+
+.photos {
+    margin: 0 auto;
+    position: relative;
+    height: 400px;
+    width: 500px;
+    overflow: hidden;
+}
+
+.im {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.shown {
+    opacity: 1;
+}
+
+.dot {
+    background-color: rgb(194, 202, 108);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 3px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.active {
+    background-color: rgb(127, 155, 4);
+}
+
+@media screen and (max-width: 550px) {
+    .im {
+        width: auto;
+        height: 100%;
+    }
+}
